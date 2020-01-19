@@ -227,7 +227,13 @@ label {
 }
 
 button {
-  border-radius: 0;
+  background-color:yellow;
+  width:150px
+}
+center,button:hover{
+
+  background-color: red;
+  
 }
 
 button:focus {
