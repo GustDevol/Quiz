@@ -1,0 +1,1 @@
+dm,rm,delete,erase;rdir,remove,rd,rmdir;

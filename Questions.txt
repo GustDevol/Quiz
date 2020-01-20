@@ -1,0 +1,1 @@
+Which command is used in linux terminal to remove files ?;Which command is used in linux terminal to remove directory ?;

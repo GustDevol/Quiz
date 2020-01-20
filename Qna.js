@@ -10,8 +10,13 @@ function decreaseCount(){
 		
 		clearInterval(intervalId);
 		setTimeout( function(){
-			alert("Time is up.\nClick ok to check your score.");
+			next();
 		},500);
 	}
 }
 var intervalId=setInterval(decreaseCount, 1000);
+
+function next(){
+	//location.replace(".../Welcome.html")
+
+}
