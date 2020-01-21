@@ -1,0 +1,69 @@
+<!doctype>
+<html>
+<head>
+<title>Result</title>
+<link rel="stylesheet" href="bootstrap1.css"/>
+
+<script type="text/javascript">
+
+var a=localStorage["score"]
+b=document.getElementById("score").innerHTML;
+b+=a;
+
+function disp(){
+ 
+ alert("THANKS FOR GOING THROUGH OUR COURSE");
+ animation()
+
+}
+
+
+</script>
+</head>
+
+<body class="container">
+
+<div style="background-color:blue;">
+ <header> <H1> <B> RESULT <B> <H1> </header>  <BR>
+
+
+<h1> Your Score: <i id="score"> <!--score--> <i></h1>   <br> 
+
+<p STYLE="font-size:30px; background-color:orange; height:50px;"> GENIOUS : 80 PERCENT </p> <br>
+
+<HR>
+<p style="font-size:30px; background-color:white; height: 50px;"> NEED TO IMPROVE:60 PERCENT TO 80 PERCENT </p> <br>
+
+<hr>
+
+<p style="font-size:30px; background-color:green; height: 50px;"> WORK HARD: BELOW 60 PERCENT </p>  <br>
+
+<hr>
+
+
+<form action="Welcome.html" method="post">
+
+<button>RETRY </button> <br>
+
+</form>
+
+<hr>
+
+
+<button onclick="disp()" >FINISH </button>
+
+
+
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

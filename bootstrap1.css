@@ -36,7 +36,7 @@
 }
 
 *,
-*::before,
+*button::before,
 *::after {
   box-sizing: border-box;
 }
@@ -71,6 +71,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -222,12 +223,20 @@ th {
 }
 
 label {
-  display: inline-block;
+  display: block;
   margin-bottom: 0.5rem;
 }
 
 button {
-  border-radius: 0;
+  background-color:yellow;
+  width:500px;
+  
+}
+button:hover{
+
+  background-color: red;
+  border-radius: 100px;
+  
 }
 
 button:focus {
