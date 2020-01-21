@@ -17,5 +17,5 @@ function decreaseCount(){
 var intervalId=setInterval(decreaseCount, 1000);
 
 function next(){
-	//localStorage["score"]="10"
+	
 }
