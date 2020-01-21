@@ -17,6 +17,5 @@ function decreaseCount(){
 var intervalId=setInterval(decreaseCount, 1000);
 
 function next(){
-	//location.replace(".../Welcome.html")
-
+	//localStorage["score"]="10"
 }
