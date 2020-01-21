@@ -17,4 +17,6 @@ function decreaseCount(){
 var intervalId=setInterval(decreaseCount, 1000);
 
 function next(){
+	document.getElementById("question").action="solutions.html";
+	localStorage["score"]="13"
 }
