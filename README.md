@@ -9,3 +9,5 @@
         Stores the questions , options & solutions of the quiz respectively.
 # solutions.html :
         Page showing quiz score.
+# Answers.html
+   showing answers of  attempted questions
