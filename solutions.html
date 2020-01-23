@@ -1,42 +1,29 @@
-<!doctype>
+<!doctype html>
 <html>
 <head>
 <title>Result</title>
 <link rel="stylesheet" href="bootstrap1.css"/>
-
-<script type="text/javascript">
-
-var a=localStorage["score"]
-b=document.getElementById("score").innerHTML;
-document.getElementById("score").innerHTML=b+a;
-
-function disp(){
- 
- alert("THANKS FOR GOING THROUGH OUR COURSE");
- 
-
-}
-
-
-</script>
+<meta charset="utf-8"/>
 </head>
 
 <body class="container">
 
 <div style="background-color:blue;">
- <header> <H1> <B> RESULT <B> <H1> </header>  <BR>
+<center><h1  style="color:orange"> <u><ul><I><b style="color:red;">GENIUS 2020 </b></I></ul></u> </h1></center>
+<br>
+<br>
+ <header> <H1  style="color:yellow"> <u><B> RESULT :-<B></u> <H1> </header>  <BR>
 
 
-<h1 id="score"> Your Score: <i> <!--score--> <i></h1>   <br> 
+<h1 id="score"><i><b> You Scored : </b></i></h1>   <br> 
 
-<p STYLE="font-size:30px; background-color:orange; height:50px;"> GENIOUS : 80 PERCENT </p> <br>
-
+<p STYLE="font-size:30px; background-color:orange; height:50px;"> GENIUS : 80 PERCENT </p> 
 <HR>
-<p style="font-size:30px; background-color:white; height: 50px;"> NEED TO IMPROVE:60 PERCENT TO 80 PERCENT </p> <br>
+<p style="font-size:30px; background-color:white; height: 50px;"> NEED TO IMPROVE : 60 PERCENT TO 80 PERCENT </p> 
 
 <hr>
 
-<p style="font-size:30px; background-color:green; height: 50px;"> WORK HARD: BELOW 60 PERCENT </p>  <br>
+<p style="font-size:30px; background-color:green; height: 50px;"> WORK EXTRA HARD : BELOW 60 PERCENT </p>  
 
 <hr>
 
@@ -53,7 +40,27 @@ function disp(){
 <button onclick="disp()" ><b><i>FINISH</i><b> </button>
 
 
+<script type="text/javascript">
 
+var a = localStorage["score"] * 10;
+b = document.getElementById("score").innerHTML;
+document.getElementById("score").innerHTML = b+a+" %";
+if(a>=80)
+    document.getElementById("score").style.color="lightgreen"
+else if(a>=60)
+    document.getElementById("score").style.color="lightblue"
+else
+    document.getElementById("score").style.color="darkred"
+
+function disp(){
+ 
+ alert("THANKS FOR TAKING OUR QUIZ");
+ 
+
+}
+
+
+</script>
 
 </div>
 

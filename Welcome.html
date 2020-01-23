@@ -25,7 +25,7 @@
 	<div class='container'>
   		<div class='row'>
   			<div class='col-10 mx-auto' style="background-color:yellow">
-				<marquee id="scroll" behaviour="scroll" direction="left" scrollamount="13"><br>
+				<marquee id="scroll" behaviour="scroll" direction="left" scrollamount="16"><br>
 				<h3 style="color:red"><b><i> WELCOME TO GENIUS QUIZ 2020 </i></b></h3></marquee><br><br>	
 			</div>
 		</div>
@@ -55,8 +55,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script>
+	<script type=text/javascript>
 		document.getElementById("header").style.color="red";
+		localStorage["qCount"]=1;
+		localStorage["score"]=0;
+		localStorage["status"]="";
 		
 	</script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

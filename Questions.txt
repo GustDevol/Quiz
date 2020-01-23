@@ -1,2 +1,16 @@
-Which command is used in linux terminal to remove files ?
-Which command is used in linux terminal to remove directory ?
+var q = [
+"Which command is used in linux terminal to remove files ?",
+"Which command is used in linux terminal to remove directory ?",
+"What is the highest score of Rohit Sharma in ODI cricket ?",
+"Against which team M.S. Dhoni got his 1st and only international wicket ?",
+"Which of these former Indian cricketer has high score in ODI same as that of M.S. Dhoni ?",
+"What is supernova ?",
+"What is the full form of HTML",
+"Who is the developer of C++ ?",
+"Nuclear explosives were tested for the 1st time in India at ___________",
+"The first Indian Satellite Aryabhatta was launched in _____________",
+"INS VIRAAT servesd the Indian Navy . It was a _____________",
+"What is the range of Agni III, the long range ballistic missile, test fired by India ?",
+"Who won the 2019 ICC Men's Emerging Cricketer ?",
+"Which of these is called the cycling capital of the world ?"
+];

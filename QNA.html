@@ -1,8 +1,8 @@
-<!doctype>
+<!doctype html>
 <html>
 <head>
 <title> QNA</title>
-<meta charset="utf-18"/>
+<meta charset="utf-8"/>
 
 <link href="bootstrap.css" rel="stylesheet"/>
 
@@ -26,11 +26,11 @@
 	<form id="question" method="get">
 	
 	<div style="background-color:lavender;">
-	<b><label for="Q1" id="1"  display="block" > Q <!--getQuestion()--> </label> <br> <br> <br>
-	(A) <input id="A"  name="Q1" type="radio" value="true" /> A <!--getOption1()--> <br> <br>
-	(B) <input id="B" name="Q1" type="radio"  value="true" /> B <!--getOption2()--> <br>  <br>
-	(C) <input id="C" name="Q1" type="radio" value="true"  /> C <!--getOption3()--> <br>  <br>
-	(D) <input id="D" name="Q1" type="radio" value="true"  /> D <!-- getOption4()--> <br>  <br> <b>
+	<b> <h6 id="Question"> Q  </h6> <br> <br> <br>
+	(A) <input id="1"  name="Q1" type="radio" value="true" /> <span id="A"> A </span> <br> <br>
+	(B) <input id="2" name="Q1" type="radio"  value="true" /> <span id="B"> B </span>  <br>  <br>
+	(C) <input id="3" name="Q1" type="radio" value="true"  /> <span id="C"> C </span>  <br>  <br>
+	(D) <input id="4" name="Q1" type="radio" value="true"  /> <span id="D"> D </span>  <br>  <br> </b>
 	</div>
 
 
@@ -38,7 +38,7 @@
 	 <!-- <button class="btn btn-primary"
 		onclick="count()"> NEXT --> </button>
     <!-- <input type="submit"  style="background-color:yellow;" value="NEXT ->" onclick="count()" /> -->
-	<button class="btn btn-outline-danger btn-warning btn-lg"  onclick="next()"> <h4><I><b>NEXT--></b></I></h4> </button>
+	<button class="btn btn-outline-danger btn-warning btn-lg"  onclick="next()"> <h4 id="nxt"><I><b>NEXT--></b></I></h4> </button>
 	</form>
 	<script src="Qna.js">
 	</script>
