@@ -10,6 +10,6 @@
 # solutions.html :
         Page showing quiz score.
 # Answers.html
-        Showing answers of attempted questions.
+        Showing answers of quiz questions.
 # AnswerKey.js
-        Displays list of attempted questions and answers on Ansters page.
+        Displays list of quiz questions and answers on Answers page.
